@@ -17,9 +17,7 @@ var ground = new GameObject({width:canvas.width*10, x:canvas.width*10/2-200,heig
 ground.img.src=`images/ground.png`
 
 //A platform
-var plat = new GameObject({width:256, height:64,y:canvas.height-200, color:"green", world:level})
-
-
+var plat = new GameObject({width:256, height:64, y:canvas.height-200, color:"green", world:level})
 
 var leftBorder = new GameObject({width:50, height:canvas.height, world:level, x:0})
 
@@ -64,8 +62,8 @@ sky.img.src = `images/sky.png`
 
 
  	//Not used, unless you want a 4th level of paralax
-	var clouds = new GameObject({x:level.x,y:level.y})
-	clouds.img.src=`images/sky.png`
+	//var clouds = new GameObject({x:level.x,y:level.y})
+	//clouds.img.src=`images/sky.png`
 
 
 //repeating background

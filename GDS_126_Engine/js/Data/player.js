@@ -90,11 +90,11 @@ var playerData ={
 			cycle:false,
 			frames:
 			[
-				{width:129, height:128, startX:3160, startY:50},
-				{width:128, height:128, startX:3190, startY:50},
-				{width:128, height:128, startX:3225, startY:50},
-				{width:128, height:128, startX:3260, startY:50},
-				{width:128, height:128, startX:3290, startY:50}
+				{width:129, height:128, startX:3160, startY:0},
+				{width:128, height:128, startX:3190, startY:0},
+				{width:128, height:128, startX:3225, startY:0},
+				{width:128, height:128, startX:3260, startY:0},
+				{width:128, height:128, startX:3290, startY:0}
 			]
 		}
 	}
